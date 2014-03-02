@@ -8,27 +8,10 @@
 # ========================================================== #
 
 import numpy as np
-import matplotlib.pyplot as plt
 
-#Plot function
-
-def plot (x, y, xlab = 'x', ylab = 'y', legend = 'y=f(x)', 
-          title = '', axis = 'equal',hold = 'on'):
-    """ Function plot implements the function plot of easyviz
-
-    """
-    plt.plot( x, y)
-    plt.xlabel(xlab)
-    plt.ylabel(ylab)
-    plt.legend([legend]) 
-    plt.title(title)
-    plt.axis(axis)
-    plt.hold(hold)
-#    plt.show()
 # ================================ #
 # Types conversion
 # ================================ #
-
 
 # convert an integer into a boolean
 def int_to_bool (inval):
